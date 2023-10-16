@@ -1,0 +1,11 @@
+camel:
+  springboot:
+    name: AccountAPI
+  servlet:
+    mapping:
+      context-path: /api/*
+  rest:
+    context-path: /api
+    
+server:
+  port: 8080   
